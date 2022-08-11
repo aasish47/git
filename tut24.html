@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css display property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        img{
+            width: 170px;
+            display: block;
+            margin: auto;
+        }
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+            text-align: center;
+        }
+        header{
+            margin: auto;
+            width: 1200px;
+            /* border: 2px solid red; */
+            /* by using display : block we can set width */
+            display: block;
+            /* width: 20%; */
+        }
+        .box{
+            border: 2px solid black;
+            background-color: grey;
+            padding: 4px;
+            margin: 4px;
+            border-radius: 4px;
+            /* inline-block is used so that it dont take the whole line as its workspace and also we can adjust its width. */
+            display: inline-block;
+            width: 24%;
+            /* box sizing is used to fix the width even if we changed the margin and padding.  */
+            box-sizing: border-box;
+            color: white;
+        }
+        .container{
+            margin: auto;
+            width: 1200px;
+        }
+        p{
+            color: whitesmoke;
+        }
+        .mylogo{
+            border: 2px solid grey;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top">
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI0AGqZaf-ES51mfpsRJjTPJZrMCUstLJHGQ&usqp=CAU" alt=""> -->
+        <img class="mylogo" src="img\aasish.jpg" alt="">
+        <h3>Welcome to Aasish's Blog.</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem aperiam magni in iusto deserunt sapiente enim. Repudiandae voluptatibus non consequuntur voluptatem, et earum autem quod? Quo doloribus tenetur, consequuntur modi ullam aut est porro.</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem aperiam magni in iusto deserunt sapiente enim. Repudiandae voluptatibus non consequuntur voluptatem, et earum autem quod? Quo doloribus tenetur, consequuntur modi ullam aut est porro.</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem aperiam magni in iusto deserunt sapiente enim. Repudiandae voluptatibus non consequuntur voluptatem, et earum autem quod? Quo doloribus tenetur, consequuntur modi ullam aut est porro.</p>
+    </div>
+    <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem aperiam magni in iusto deserunt sapiente enim. Repudiandae voluptatibus non consequuntur voluptatem, et earum autem quod? Quo doloribus tenetur, consequuntur modi ullam aut est porro.</p>
+    </div>
+    </div>
+    
+</body>
+</html>
